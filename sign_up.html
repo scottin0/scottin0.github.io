@@ -22,9 +22,9 @@
         analytics.identify(
           document.getElementsByName('email_addr')[0].value,
           {
-            email: document.getElementsByName('email_addr')[0].value
-            firstName: document.getElementsByName('first_nm')[0].value
-            lastName: document.getElementsByName('last_nm')[0].value
+            "email": document.getElementsByName('email_addr')[0].value,
+            "firstName": document.getElementsByName('first_nm')[0].value,
+            "lastName": document.getElementsByName('last_nm')[0].value
           }
         );
         return false;
